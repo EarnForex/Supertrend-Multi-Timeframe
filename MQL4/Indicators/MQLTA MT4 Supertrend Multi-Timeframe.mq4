@@ -1,7 +1,7 @@
 #property link          "https://www.earnforex.com/metatrader-indicators/supertrend-multi-timeframe/"
-#property version       "1.11"
+#property version       "1.12"
 #property strict
-#property copyright     "EarnForex.com - 2019-2021"
+#property copyright     "EarnForex.com - 2019-2023"
 #property description   "This Indicator will show you the status of the Supertrend indicator on multiple timeframes."
 #property description   " "
 #property description   "WARNING : You use this software at your own risk."
@@ -126,8 +126,6 @@ int OnInit()
     SetIndexShift(0, Shift);
     SetIndexShift(1, Shift);
     SetIndexShift(2, Shift);
-
-    CalculateLevels(ATRMaxBars); // Initial calculation because OnCalculate() won't be launched until next tick.
 
     DPIScale = (double)TerminalInfoInteger(TERMINAL_SCREEN_DPI) / 96.0;
     PanelBaseButtonHeight = 20;
