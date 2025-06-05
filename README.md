@@ -6,6 +6,6 @@ This version of Supertrend Multi-Timeframe is available for the MetaTrader 4 and
 
 ![Supertrend Multi-Timeframe is showing mixed signals for the GBP/USD pair.](https://github.com/EarnForex/Supertrend-Multi-Timeframe/blob/main/README_Images/supertrend-mtf-example-gbpusd.png)
 
-More information about this custom MetaTrader indicator is available here: https://www.earnforex.com/metatrader-indicators/supertrend-multi-timeframe/
+More information about this custom MetaTrader indicator is available here: https://www.earnforex.com/indicators/supertrend-multi-timeframe/
 
 Any contributions to the code are welcome!
